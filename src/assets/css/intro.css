@@ -1,0 +1,70 @@
+.introduction-container > .MuiGrid-container {
+padding-top: 5em;
+}
+
+.introduction-container h1 {
+  font-size: 5em;
+  padding: 0.5em 0.5em 0.2em 0em;
+}
+
+.introduction-container h4 {
+  color: var(--primary);
+  font-weight: 400;
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+
+.introduction-container h5 {
+  color: var(--mute);
+  font-size: 1em;
+  font-weight: 100;
+  padding-bottom: 1em
+}
+
+.introduction-container .MuiGrid-item {
+  display: table;
+}
+
+.introduction-container .sub-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.introduction-container .MuiAvatar-root {
+  margin: 0 auto;
+}
+
+.introduction-container .intro-avatar {
+  height: 300px;
+  width: 300px;
+}
+
+.introduction-info-container button {
+    background-color: var(--primary);
+    color: inherit;
+    padding: 1em;
+    text-transform: capitalize;
+    margin: 1em 0 1em 0;
+    font-weight: 400;
+}
+
+.introduction-info-container button:hover {
+    background-color: var(--secondary);
+}
+
+.introduction-container .intro-contact {
+  display: inline-flex;
+}
+
+.introduction-container .intro-contact .MuiAvatar-circular {
+  background-color: var(--primary);
+  margin-right: 1em;
+}
+
+.introduction-container .intro-contact .MuiAvatar-circular a {
+  color: white;
+}
+
+.intro-contact .MuiAvatar-circular svg{
+  margin-top: 0.1em
+}
